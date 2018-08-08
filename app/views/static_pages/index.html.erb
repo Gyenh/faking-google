@@ -3,9 +3,9 @@
 				<ul>
 					<li><a href="#">Gmail</a></li>
 					<li><a href="#">Images</a></li>
-					<li><img class="icons" src="apps-top.png"></li>
-					<li><img class="icons" src="bell-top.png"></li>
-					<li><img class="phid" src="photo.png"></li> <!-- Visuel a changer-->
+					<%= image_tag "apps-top.png", width: 25 %>
+          <%= image_tag "bell-top.png", width: 25 %>
+          <%= image_tag "photo.png", width: 25 %>
 				</ul>
 			</nav>
 		</header>
@@ -13,7 +13,7 @@
 		<section>
 			<div class="container"> <!-- Le logo de google est mis dans un container pour faciliter la mise en page -->
 				<div class="logo">
-					<img class="logo-google" src="google.png">
+					<img class="logo-google" <%= image_tag "google.png" %>
 				</div>
 
 				<div class="searchform">
